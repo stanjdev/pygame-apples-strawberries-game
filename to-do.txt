@@ -1,0 +1,11 @@
+TO-DO:
+
+
+DOING:
+- Reset logic when dying from bomb. reset player position, reset fruits speed, reset counter
+
+DONE:
+- Add visual counter
+- Modularize
+
+

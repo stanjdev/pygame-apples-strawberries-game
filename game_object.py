@@ -1,5 +1,6 @@
 import pygame
 
+# GAME OBJECT
 class GameObject(pygame.sprite.Sprite):
   def __init__(self, x, y, image):
     super(GameObject, self).__init__()
