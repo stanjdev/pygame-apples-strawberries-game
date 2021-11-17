@@ -9,6 +9,8 @@ from apple import Apple
 from player import Player
 from constants import screen, bg_image, gamefont
 
+# from animated_object import animated_player
+
 clock = pygame.time.Clock()
 
 # Apples move vertically top to bottom
@@ -30,6 +32,8 @@ all_sprites.add(player)
 all_sprites.add(apple)
 all_sprites.add(strawberry)
 all_sprites.add(bomb)
+
+# all_sprites.add(animated_player)
 
 
 # Make a fruits Group
@@ -100,5 +104,8 @@ while running:
   pygame.display.flip()
   # tick the clock
   clock.tick(60)
+
+
+
 
 

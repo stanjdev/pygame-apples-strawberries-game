@@ -10,7 +10,6 @@ class GameObject(pygame.sprite.Sprite):
     self.rect = self.surf.get_rect()
     self.x = x
     self.y = y
-    self.rect = self.surf.get_rect()
   
   def render(self, screen):
     self.rect.x = self.x

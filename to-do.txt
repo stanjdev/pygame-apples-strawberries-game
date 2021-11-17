@@ -1,11 +1,23 @@
 TO-DO:
+- Stretch challenges! https://github.com/Tech-at-DU/Pygame-Tutorial/tree/main/07-Next-Step 
+- Challenge 2: Animate background like moving clouds
+- Challenge 4: Sounds
+- Challenge 8: Remove fruit when it is hit by bomb
+- Challenge 9: Improve collisions to using circles instead of rectangles
+- Challenge 10: Create different App Screens
+- Challenge 11: ready state and playing state and gameover state
 
 
 DOING:
-- Reset logic when dying from bomb. reset player position, reset fruits speed, reset counter
+- Challenge 7: Animate game objects
 
 DONE:
+- Challenge 1: set background image
+- Challenge 3: code into modules
+- Challenge 5: Score keeping
+- Challenge 6: Reset logic when dying from bomb. reset GameObject positions, reset fruits speed, reset counter
 - Add visual counter
 - Modularize
+- Reverse directions - randomize
 
 
