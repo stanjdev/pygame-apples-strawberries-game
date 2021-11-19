@@ -3,13 +3,14 @@
 import pygame
 pygame.init()
 pygame.font.init()
-from bomb import Bomb
+# from player import Player
+# from bomb import Bomb
 from strawberry import Strawberry
 from apple import Apple
-from player import Player
 from constants import screen, bg_image, gamefont
 
-# from animated_object import animated_player
+from player_animated import AnimatedPlayer
+from bomb_animated import AnimatedBomb
 
 clock = pygame.time.Clock()
 
@@ -20,10 +21,12 @@ apple = Apple()
 strawberry = Strawberry()
 
 # Bombs move vertically top to bottom
-bomb = Bomb()
+# bomb = Bomb()
+bomb = AnimatedBomb()
 
 # PLAYER INSTANCE
-player = Player()
+# player = Player()
+player = AnimatedPlayer()
 
 
 # Make a Group to render and move all sprites
