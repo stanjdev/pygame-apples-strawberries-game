@@ -4,7 +4,6 @@ from random import randint, choice
 from constants import x_lanes, y_lanes, SCREEN_HEIGHT, SCREEN_WIDTH
 import pygame
 
-
 bomb_images = [
   pygame.image.load('./images/bomb/bomb-1.png'),
   pygame.image.load('./images/bomb/bomb-2.png'),

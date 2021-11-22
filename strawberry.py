@@ -32,3 +32,4 @@ class Strawberry(GameObject):
   def reset_speed(self):
     self.dx = (randint(0, 200) / 100) + 1
     
+

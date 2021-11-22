@@ -7,11 +7,10 @@ TO-DO:
 - Challenge 10: Create different App Screens
 - Challenge 11: ready state and playing state and gameover state
 
-
 DOING:
-- Challenge 7: Animate game objects
 
 DONE:
+- Challenge 7: Animate game objects
 - Challenge 1: set background image
 - Challenge 3: code into modules
 - Challenge 5: Score keeping

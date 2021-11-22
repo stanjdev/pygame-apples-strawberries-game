@@ -14,13 +14,13 @@ from bomb_animated import AnimatedBomb
 
 clock = pygame.time.Clock()
 
-# Apples move vertically top to bottom
+# Apples move vertically
 apple = Apple()
 
-# Strawberries move horizontally left to right
+# Strawberries move horizontally
 strawberry = Strawberry()
 
-# Bombs move vertically top to bottom
+# BOMB INSTANCE
 # bomb = Bomb()
 bomb = AnimatedBomb()
 
@@ -35,8 +35,6 @@ all_sprites.add(player)
 all_sprites.add(apple)
 all_sprites.add(strawberry)
 all_sprites.add(bomb)
-
-# all_sprites.add(animated_player)
 
 
 # Make a fruits Group
@@ -91,7 +89,6 @@ while running:
   # # Returns the fruit that the player has collided with
   fruit = pygame.sprite.spritecollideany(player, fruits_sprites)
   if fruit:
-    # print(dir(fruit))
     fruit.increase_speed()
     fruit.reset()
     score += 1
